@@ -1,7 +1,13 @@
 import React from "react";
+import ProductDetail from "./components/ProductDetail";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      App
+      <ProductDetail />
+    </>
+  );
 };
 
 export default App;
