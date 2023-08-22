@@ -4,7 +4,8 @@ import ProductDetail from "./ProductDetail";
 const Cart = () => {
   return (
     <>
-      Cart here
+      {alert("Cart is opened")}
+      <h1>Cart here</h1>
       <ProductDetail />
       <span>Total price: ₹price</span>
       <button>Proceed to payment</button>

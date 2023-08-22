@@ -8,7 +8,6 @@ const ProductListing = () => {
       <ProductDetail />
       <ProductDetail />
       <ProductDetail />
-      <a href={"./Cart.jsx"}>Cart</a>
     </>
   );
 };
