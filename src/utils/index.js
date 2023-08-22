@@ -9,7 +9,7 @@ function ProductDetails(price, image, name, available, producer, description) {
 
 const prod1 = new ProductDetails(
   4999,
-  "./red-suitcase.jpg",
+  "../utils/red-suitcase.jpg",
   "American tourister Jamaican Polyester",
   true,
   "American Tourister",
@@ -18,7 +18,7 @@ const prod1 = new ProductDetails(
 
 const prod2 = new ProductDetails(
   2299,
-  "./oneplus-earphones-wireless.jpg",
+  "../oneplus-earphones-wireless.jpg",
   "OnePlus Bullets Wireless Z2 ANC bluetooth Earphones",
   true,
   "OnePlus",
@@ -27,7 +27,7 @@ const prod2 = new ProductDetails(
 
 const prod3 = new ProductDetails(
   15999,
-  "./techno-phone.jpg",
+  "../techno-phone.jpg",
   "TECNO pova 5 pro 5G",
   true,
   "TECNO",
@@ -36,7 +36,7 @@ const prod3 = new ProductDetails(
 
 const prod4 = new ProductDetails(
   1299,
-  "./boat-earphones.jpg",
+  "../boat-earphones.jpg",
   "Boat Airpodes 141 Bluetooth Headphones",
   true,
   "Boat",
@@ -45,7 +45,7 @@ const prod4 = new ProductDetails(
 
 const prod5 = new ProductDetails(
   599,
-  "./analog-clock.jpg",
+  "../analog-clock.jpg",
   "Solimo 12 inch plastic & glass wall clock",
   true,
   "Amazon Brand",
@@ -54,7 +54,7 @@ const prod5 = new ProductDetails(
 
 const prod6 = new ProductDetails(
   449,
-  "./Keyboard.jpg",
+  "../Keyboard.jpg",
   "Wired Keyboard for windows",
   true,
   "Amazon",
@@ -63,7 +63,7 @@ const prod6 = new ProductDetails(
 
 const prod7 = new ProductDetails(
   586,
-  "./Ego-enemy.jpg",
+  "../Ego-enemy.jpg",
   "Ego is the enemy",
   true,
   "Tim Ferris",
@@ -72,7 +72,7 @@ const prod7 = new ProductDetails(
 
 const prod8 = new ProductDetails(
   357,
-  "./TS-grewal.jpg",
+  "../TS-grewal.jpg",
   "T.S. Grewal Double Entry Book Keeping",
   true,
   "T.S. Grewal",

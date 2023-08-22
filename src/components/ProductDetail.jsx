@@ -1,20 +1,21 @@
 import React from "react";
 
-const ProductDetail = () => {
+const ProductDetail = (prop) => {
+  const Logo = "sdfj";
+  console.log({ prop });
   return (
     <>
-      <h2>Name</h2>
-      <img src="" alt="logo" />
-      <span>₹ Price</span>
+      <h2>{prop.product.name}</h2>
+      <img src={prop.product.image} alt="logo" />
+      <br />
+      <span>Price: ₹{prop.product.price}</span>
       <section className="description">
         <p>
-          Product details
+          Product details:
           <br />
-          specs
+          {prop.product.description}
           <br />
-          specs 2
-          <br />
-          specs 3
+          Sold by: {prop.product.producer}
         </p>
       </section>
       <button>Add to Cart</button>
