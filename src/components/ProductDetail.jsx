@@ -1,11 +1,22 @@
 import React from "react";
 import "./ProductDetail.css";
 
-const ProductDetail = ({ name, image, price, description, producer }) => {
+var totalPrice = 0;
+const ProductDetail = ({ id, name, image, price, description, producer }) => {
+  function addCart(price, id) {
+    totalPrice = totalPrice + { price };
+    console.log({ id });
+    console.log(totalPrice);
+  }
+
+  async function buttoncounter() {
+    console.log("working");
+    addCart({ price, id });
+  }
   return (
     <div className="detail">
       <h2>{name}</h2>
-      <a href="/">
+      <a href="/productlisting">
         <img src={image} alt="logo" />
       </a>
       <br />
@@ -21,7 +32,7 @@ const ProductDetail = ({ name, image, price, description, producer }) => {
           Sold by: {producer}
         </p>
       </section>
-      <button>Add to Cart</button>
+      <button onClick={buttoncounter}>Add</button>
     </div>
   );
 };
