@@ -12,9 +12,11 @@ import {
   prod8,
 } from "../utils/index";
 
+import "./ProductListing.css";
+
 const ProductListing = () => {
   return (
-    <>
+    <div className="productList">
       <ProductDetail
         name={prod1.name}
         image={prod1.image}
@@ -71,7 +73,7 @@ const ProductListing = () => {
         description={prod8.description}
         producer={prod8.producer}
       />
-    </>
+    </div>
   );
 };
 

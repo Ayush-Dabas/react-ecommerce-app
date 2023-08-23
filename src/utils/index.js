@@ -76,7 +76,7 @@ const prod7 = new ProductDetails(
   "Ego is the enemy",
   true,
   "Tim Ferris",
-  "While the history books are filled with tales of obsessive visionary geniuses who remade the world in their images with sheer, almost irrational force, I've found that history is also made by individuals who fought their egos at every turn, who eschewed the spotlight, and who put their higher goals above their desire for recognition"
+  "I've found that history is also made by individuals who fought their egos at every turn, who eschewed the spotlight, and who put their higher goals above their desire for recognition"
 );
 
 const prod8 = new ProductDetails(
