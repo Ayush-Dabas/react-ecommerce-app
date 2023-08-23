@@ -1,3 +1,12 @@
+import analogClock from "./analog-clock.jpg";
+import boatEarphone from "./boat-earphones.jpg";
+import egoEnemy from "./Ego-enemy.jpg";
+import keyBoard from "./Keyboard.jpg";
+import onePlusEarphone from "./oneplus-earphones-wireless.jpg";
+import redSuitcase from "./red-suitcase.jpg";
+import technoPhone from "./techno-phone.jpg";
+import tsGrewal from "./TS-grewal.jpg";
+
 function ProductDetails(price, image, name, available, producer, description) {
   this.price = price;
   this.image = image;
@@ -9,7 +18,7 @@ function ProductDetails(price, image, name, available, producer, description) {
 
 const prod1 = new ProductDetails(
   4999,
-  "../utils/red-suitcase.jpg",
+  redSuitcase,
   "American tourister Jamaican Polyester",
   true,
   "American Tourister",
@@ -18,7 +27,7 @@ const prod1 = new ProductDetails(
 
 const prod2 = new ProductDetails(
   2299,
-  "../oneplus-earphones-wireless.jpg",
+  onePlusEarphone,
   "OnePlus Bullets Wireless Z2 ANC bluetooth Earphones",
   true,
   "OnePlus",
@@ -27,7 +36,7 @@ const prod2 = new ProductDetails(
 
 const prod3 = new ProductDetails(
   15999,
-  "../techno-phone.jpg",
+  technoPhone,
   "TECNO pova 5 pro 5G",
   true,
   "TECNO",
@@ -36,7 +45,7 @@ const prod3 = new ProductDetails(
 
 const prod4 = new ProductDetails(
   1299,
-  "../boat-earphones.jpg",
+  boatEarphone,
   "Boat Airpodes 141 Bluetooth Headphones",
   true,
   "Boat",
@@ -45,7 +54,7 @@ const prod4 = new ProductDetails(
 
 const prod5 = new ProductDetails(
   599,
-  "../analog-clock.jpg",
+  analogClock,
   "Solimo 12 inch plastic & glass wall clock",
   true,
   "Amazon Brand",
@@ -54,7 +63,7 @@ const prod5 = new ProductDetails(
 
 const prod6 = new ProductDetails(
   449,
-  "../Keyboard.jpg",
+  keyBoard,
   "Wired Keyboard for windows",
   true,
   "Amazon",
@@ -63,7 +72,7 @@ const prod6 = new ProductDetails(
 
 const prod7 = new ProductDetails(
   586,
-  "../Ego-enemy.jpg",
+  egoEnemy,
   "Ego is the enemy",
   true,
   "Tim Ferris",
@@ -72,7 +81,7 @@ const prod7 = new ProductDetails(
 
 const prod8 = new ProductDetails(
   357,
-  "../TS-grewal.jpg",
+  tsGrewal,
   "T.S. Grewal Double Entry Book Keeping",
   true,
   "T.S. Grewal",
