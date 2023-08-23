@@ -7,7 +7,16 @@ import redSuitcase from "./red-suitcase.jpg";
 import technoPhone from "./techno-phone.jpg";
 import tsGrewal from "./TS-grewal.jpg";
 
-function ProductDetails(price, image, name, available, producer, description) {
+function ProductDetails(
+  id,
+  price,
+  image,
+  name,
+  available,
+  producer,
+  description
+) {
+  this.id = id;
   this.price = price;
   this.image = image;
   this.name = name;
@@ -17,6 +26,7 @@ function ProductDetails(price, image, name, available, producer, description) {
 }
 
 const prod1 = new ProductDetails(
+  1000,
   4999,
   redSuitcase,
   "American tourister Jamaican Polyester",
@@ -26,6 +36,7 @@ const prod1 = new ProductDetails(
 );
 
 const prod2 = new ProductDetails(
+  1003,
   2299,
   onePlusEarphone,
   "OnePlus Bullets Wireless Z2 ANC bluetooth Earphones",
@@ -35,6 +46,7 @@ const prod2 = new ProductDetails(
 );
 
 const prod3 = new ProductDetails(
+  1006,
   15999,
   technoPhone,
   "TECNO pova 5 pro 5G",
@@ -44,6 +56,7 @@ const prod3 = new ProductDetails(
 );
 
 const prod4 = new ProductDetails(
+  1009,
   1299,
   boatEarphone,
   "Boat Airpodes 141 Bluetooth Headphones",
@@ -53,6 +66,7 @@ const prod4 = new ProductDetails(
 );
 
 const prod5 = new ProductDetails(
+  1012,
   599,
   analogClock,
   "Solimo 12 inch plastic & glass wall clock",
@@ -62,6 +76,7 @@ const prod5 = new ProductDetails(
 );
 
 const prod6 = new ProductDetails(
+  1015,
   449,
   keyBoard,
   "Wired Keyboard for windows",
@@ -71,6 +86,7 @@ const prod6 = new ProductDetails(
 );
 
 const prod7 = new ProductDetails(
+  1018,
   586,
   egoEnemy,
   "Ego is the enemy",
@@ -80,6 +96,7 @@ const prod7 = new ProductDetails(
 );
 
 const prod8 = new ProductDetails(
+  1021,
   357,
   tsGrewal,
   "T.S. Grewal Double Entry Book Keeping",
