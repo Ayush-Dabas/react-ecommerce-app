@@ -1,18 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ProductDetail.css";
 
-var totalPrice = 0;
+// var totalPrice = 0;
 const ProductDetail = ({ id, name, image, price, description, producer }) => {
-  function addCart(price, id) {
-    totalPrice = totalPrice + { price };
-    console.log({ id });
-    console.log(totalPrice);
-  }
-
-  async function buttoncounter() {
-    console.log("working");
-    addCart({ price, id });
-  }
+  const [cart, setCart] = useState();
+  const addToCart = (id) => {};
   return (
     <div className="detail">
       <h2>{name}</h2>
@@ -32,7 +24,7 @@ const ProductDetail = ({ id, name, image, price, description, producer }) => {
           Sold by: {producer}
         </p>
       </section>
-      <button onClick={buttoncounter}>Add</button>
+      <button>Add</button>
     </div>
   );
 };
